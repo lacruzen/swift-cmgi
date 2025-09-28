@@ -1,37 +1,10 @@
-###############################################################################
-# This file is part of SWIFT.
-# Copyright (c) 2023 Jacob Kegerreis (jacob.kegerreis@durham.ac.uk)
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Lesser General Public License as published
-# by the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU Lesser General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
-##############################################################################
-
-"""Plot the post-settling planetary profiles of the DemoImpactInitCond simulations.
-
-Note that, for standard SPH hydro schemes, especially at low resolution, the
-standard issues that arise at discontinuities in material and density lead the
-SPH particles to settle at slightly different densities near discontinuties.
-For more info and to explore ways to resolve these issues, check out e.g.
-Sandnes et al. (2025), Ruiz-Bonilla el al. (2022), and Kegerreis et al. (2019).
-The overall profile of the settled SPH planet should still align with the input.
-"""
-
 import os
-import matplotlib
-import matplotlib.pyplot as plt
 import numpy as np
 import h5py
 import woma
+import matplotlib
+import matplotlib.pyplot as plt
+from matplotlib.patches import Ellipse
 
 # Number of particles
 N = 10 ** 5
@@ -48,14 +21,13 @@ params = {
 }
 matplotlib.rcParams.update(params)
 
+# Earth units
+R_E = 6.3710e6  # m
 
 def plot_profile_and_particles(profile, A1_r, A1_rho):
     """Plot the particles."""
     plt.figure(figsize=(7, 7))
     ax = plt.gca()
-
-    # Earth units
-    R_E = 6.3710e6  # m
 
     # Profile
     ax.plot(profile.A1_r / R_E, profile.A1_rho)
@@ -69,12 +41,49 @@ def plot_profile_and_particles(profile, A1_r, A1_rho):
 
     plt.tight_layout()
 
+def plot_spinning_profiles(sp):    
+    fig, ax = plt.subplots(1, 2, figsize=(12,6))
+    
+    ax[0].plot(sp.planet.A1_r / R_E, sp.planet.A1_rho, label="original spherical")
+    ax[0].plot(sp.A1_R / R_E, sp.A1_rho, label="equatorial")
+    ax[0].plot(sp.A1_Z / R_E, sp.A1_rho, label="polar")
+    ax[0].set_xlabel(r"Radius, $r$ $[R_\oplus]$")
+    ax[0].set_ylabel(r"Density, $\rho$ [kg m$^{-3}$]")
+    ax[0].set_yscale("log")
+    ax[0].set_xlim(0, 1.1 * sp.R_eq / R_E)
+    ax[0].legend()
+    
+    for i, e in enumerate([
+        Ellipse(
+            xy=[0, 0],
+            width=2 * sp.A1_R[i] / R_E, 
+            height=2 * sp.A1_Z[i] / R_E,
+            zorder=-i,
+        )
+        for i in range(len(sp.A1_R))
+    ]):
+        ax[1].add_artist(e)
+        e.set_clip_box(ax[1].bbox)
+        e.set_facecolor(plt.get_cmap("viridis")(
+            (sp.A1_rho[i] - sp.rho_s) / (sp.rho_0 - sp.rho_s)
+        ))
+    
+    ax[1].set_xlabel(r"Equatorial Radius, $r_{xy}$ $[R_\oplus]$")
+    ax[1].set_ylabel(r"Polar Radius, $z$ $[R_\oplus]$")    
+    ax[1].set_xlim(0, 1.1 * sp.R_eq / R_E)
+    ax[1].set_ylim(0, 1.1 * sp.R_po / R_E)
+    ax[1].set_aspect("equal")
+    ax[1].set_title(r"Density [kg m$^{-3}$]")
+    
+    plt.tight_layout()
+    return fig
 
 if __name__ == "__main__":
     # Plot each snapshot
     for body in ["target", "impactor"]:
         # Load profiles
         profile = woma.Planet(load_file="demo_%s_profile.hdf5" % body)
+        spin_profile = woma.SpinPlanet(load_file="demo_%s_spin_profile.hdf5" % body)
 
         # Load the data
         snapshot_id = 5
@@ -95,12 +104,16 @@ if __name__ == "__main__":
             A1_r = np.sqrt(np.sum(A2_pos ** 2, axis=1))
             A1_rho = np.array(f["PartType0/Densities"][()]) * file_to_SI.rho
 
-        # Plot the data
+        # Plot the density profile with particles
         plot_profile_and_particles(profile, A1_r, A1_rho)
-
-        # Save the figure
-        save = "demo_%s_%s_%04d_prof.png" % (body, N_label, snapshot_id)
-        plt.savefig(save, dpi=200)
+        save1 = "demo_%s_%s_%04d_density_prof.png" % (body, N_label, snapshot_id)
+        plt.savefig(save1, dpi=200)
         plt.close()
+        print("Saved %s" % save1)
 
-        print("\rSaved %s" % save)
+        # Plot the spinning profiles
+        fig = plot_spinning_profiles(spin_profile)
+        save2 = "demo_%s_%s_%04d_spin_prof.png" % (body, N_label, snapshot_id)
+        plt.savefig(save2, dpi=200)
+        plt.close()
+        print("Saved %s" % save2)

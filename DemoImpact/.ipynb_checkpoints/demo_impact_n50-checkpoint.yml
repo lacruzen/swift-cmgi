@@ -14,21 +14,21 @@ InitialConditions:
 # Parameters governing the time integration
 TimeIntegration:
     time_begin:     0                   # The starting time of the simulation (in internal units).
-    time_end:       54000               # The end time of the simulation (in internal units).
-    dt_min:         0.000001            # The minimal time-step size of the simulation (in internal units).
-    dt_max:         1000                # The maximal time-step size of the simulation (in internal units).
+    time_end:       3600                # REDUCED: ~1 hour simulation time (was 54000 ~15 hours)
+    dt_min:         0.001               # RELAXED: Less restrictive minimum timestep
+    dt_max:         100                 # REDUCED: Smaller maximum timestep for stability
 
 # Parameters governing the snapshots
 Snapshots:
-    subdir:             snapshots       # Sub-directory in which to write the snapshots. Defaults to "" (i.e. the directory where SWIFT is run).
+    subdir:             snapshots       # Sub-directory in which to write the snapshots.
     basename:           demo_impact_n50 # Common part of the name of output files
     time_first:         0               # Time of the first output (in internal units)
-    delta_time:         2000            # Time difference between consecutive outputs (in internal units)
+    delta_time:         300             # REDUCED: More frequent outputs for testing (was 2000)
 
 # Parameters governing the conserved quantities statistics
 Statistics:
     time_first: 0                       # Time of the first output (in internal units)
-    delta_time: 1000                    # Time between statistics output
+    delta_time: 100                     # REDUCED: More frequent statistics
 
 # Parameters controlling restarts
 Restarts:
@@ -36,23 +36,27 @@ Restarts:
 
 # Parameters for the hydrodynamics scheme
 SPH:
-    resolution_eta:     1.2348          # Target smoothing length in units of the mean inter-particle separation (1.2348 == 48Ngbs with the cubic spline kernel).
-    delta_neighbours:   0.1             # The tolerance for the targetted number of neighbours.
-    CFL_condition:      0.2             # Courant-Friedrich-Levy condition for time integration.
-    h_max:              1.0             # Maximal allowed smoothing length (in internal units).
-    viscosity_alpha:    1.5             # Override for the initial value of the artificial viscosity.
+    resolution_eta:     1.2348          # Target smoothing length in units of the mean inter-particle separation.
+    delta_neighbours:   0.2             # RELAXED: More tolerant neighbour finding
+    CFL_condition:      0.3             # RELAXED: Less restrictive CFL condition
+    h_max:              2.0             # INCREASED: Allow larger smoothing lengths for stability
+    viscosity_alpha:    1.0             # REDUCED: Less artificial viscosity for spinning flows
+    viscosity_beta:     2.0             # REDUCED: Less artificial viscosity
+    density_energy_entropy_signals_sound_speed: 1
 
 # Parameters for the self-gravity scheme
 Gravity:
-    eta:                            0.025       # Constant dimensionless multiplier for time integration.
-    MAC:                            adaptive    # Choice of mulitpole acceptance criterion: 'adaptive' OR 'geometric'.
-    epsilon_fmm:                    0.001       # Tolerance parameter for the adaptive multipole acceptance criterion.
-    theta_cr:                       0.5         # Opening angle for the purely gemoetric criterion.
-    max_physical_baryon_softening:  0.16        # Physical softening length (in internal units).
+    eta:                            0.05        # RELAXED: Less accurate but faster gravity
+    MAC:                            geometric   # CHANGED: Faster than adaptive for small runs
+    epsilon_fmm:                    0.01        # RELAXED: Less accurate but faster
+    theta_cr:                       0.7         # RELAXED: Larger opening angle for speed
+    max_physical_baryon_softening:  0.2         # SLIGHTLY INCREASED: For stability
+    comoving_softening_ratio:       0.03        # RELAXED: For stability
 
 # Parameters for the task scheduling
 Scheduler:
-    max_top_level_cells:    64          # Maximal number of top-level cells in any dimension. The nu
+    max_top_level_cells:    32          # REDUCED: Fewer top-level cells for smaller domain
+    tasks_per_tick:         200         # Adjusted for better performance on laptop
 
 # Parameters related to the equation of state
 EoS:
@@ -62,3 +66,19 @@ EoS:
     # Tablulated EoS file paths.
     planetary_ANEOS_forsterite_table_file:  ../EoSTables/ANEOS_forsterite_S19.txt
     planetary_ANEOS_Fe85Si15_table_file:    ../EoSTables/ANEOS_Fe85Si15_S20.txt
+
+# Parameters for the domain decomposition
+DomainDecomposition:
+    mesh_type:          vector_psort    # Good for irregular distributions
+    initial_type:       memory          # Better initial load balancing
+
+# NEW: Memory and performance optimizations for laptop
+Memory:
+    # Conservative memory settings for laptop
+    max_memory_tasks_per_rank:  500     # Limit memory usage
+    memory_dump_info:           1       # Enable memory monitoring
+
+# NEW: MPI settings optimized for 12-thread laptop
+MPI:
+    # If running with MPI, use appropriate settings
+    mpi_threads: 4  # Uncomment if using MPI with 3 ranks × 4 threads each

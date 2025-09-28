@@ -1,21 +1,3 @@
-################################################################################
-# This file is part of SWIFT.
-# Copyright (c) 2024 Jacob Kegerreis (jacob.kegerreis@durham.ac.uk)
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Lesser General Public License as published
-# by the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU Lesser General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
-################################################################################
-
 """Create initial conditions for settling, using WoMa. See README.md for more info."""
 
 import numpy as np
@@ -23,7 +5,7 @@ import h5py
 import woma
 
 # Number of particles
-N = 10 ** 6
+N = 10 ** 5
 N_label = "n%d" % (10 * np.log10(N))
 
 # Earth units
@@ -65,13 +47,33 @@ impactor_prof.gen_prof_L2_find_R_R1_given_M1_M2(R_min=0.5 * R_E, R_max=0.6 * R_E
 target_prof.save("demo_target_profile.hdf5")
 impactor_prof.save("demo_impactor_profile.hdf5")
 
-# Place particles
-target = woma.ParticlePlanet(target_prof, 0.887 * N, seed=12345)
-impactor = woma.ParticlePlanet(impactor_prof, 0.133 * N, seed=23456)
+# Add spin to target & impactor
+target_spin = woma.SpinPlanet(
+    planet=target_prof,
+    period=12,  # h
+    verbosity=0,
+)
+
+impactor_spin = woma.SpinPlanet(
+    planet=impactor_prof,
+    period=12,  # h
+    verbosity=0,
+)
+
+# Save spin profile data
+target_spin.save("demo_target_spin_profile.hdf5")
+impactor_spin.save("demo_impactor_spin_profile.hdf5")
+
+# Place particles - FIXED: Use integer particle counts
+target = woma.ParticlePlanet(target_spin, int(0.887 * N), seed=12345)
+impactor = woma.ParticlePlanet(impactor_spin, int(0.133 * N), seed=23456)
 
 print()
 print("N_target     = %d" % target.N_particles)
 print("N_impactor   = %d" % impactor.N_particles)
+print("N_total      = %d" % (target.N_particles + impactor.N_particles))
+print("Target fraction = %.3f" % (target.N_particles / N))
+print("Impactor fraction = %.3f" % (impactor.N_particles / N))
 
 # Save the settling initial conditions
 file_to_SI = woma.Conversions(m=1e24, l=1e6, t=1)

@@ -4,6 +4,9 @@ set -o xtrace
 # Resolution
 N_label=n50
 
+# SWIFT executable path
+SWIFT_PATH="$HOME/swiftsim/swift"
+
 # Create the initial particle planets
 python3 make_init_cond.py
 
@@ -16,9 +19,9 @@ then
 fi
 
 # Run SWIFT settling simulations
-../../../swift --hydro --self-gravity --threads=28 demo_target_"$N_label".yml \
+"$SWIFT_PATH" --hydro --self-gravity --threads=28 demo_target_"$N_label".yml \
     2>&1 | tee output_"$N_label"_t.txt
-../../../swift --hydro --self-gravity --threads=28 demo_impactor_"$N_label".yml \
+"$SWIFT_PATH" --hydro --self-gravity --threads=28 demo_impactor_"$N_label".yml \
     2>&1 | tee output_"$N_label"_i.txt
 
 # Plot the settled particles

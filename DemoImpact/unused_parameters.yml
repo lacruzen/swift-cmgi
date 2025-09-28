@@ -2,11 +2,31 @@
 
 # SWIFT unused parameter file
 # code version: 2025.04
-# git revision: v2025.04-37-ged042bc2
+# git revision: v2025.04-40-ge4782930
 # git branch: master
-# git date: 2025-08-11 21:17:59 +0000
-# current date: 17:39:12 2025-09-07 PST
+# git date: 2025-09-24 16:13:01 +0200
+# current date: 21:18:59 2025-09-28 PST
 
 SPH:
-  delta_neighbours: 0.1
+  delta_neighbours: 0.2
+  viscosity_beta: 2.0
+  density_energy_entropy_signals_sound_speed: 1
+
+Gravity:
+  epsilon_fmm: 0.01
+  comoving_softening_ratio: 0.03
+
+Scheduler:
+  tasks_per_tick: 200
+
+DomainDecomposition:
+  mesh_type: vector_psort
+  initial_type: memory
+
+Memory:
+  max_memory_tasks_per_rank: 500
+  memory_dump_info: 1
+
+MPI:
+  mpi_threads: 4
 ...
