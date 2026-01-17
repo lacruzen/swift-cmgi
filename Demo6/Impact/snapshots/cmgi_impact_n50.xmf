@@ -1,0 +1,1605 @@
+<?xml version="1.0" ?> 
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []> 
+<Xdmf xmlns:xi="http://www.w3.org/2003/XInclude" Version="2.1">
+<Domain>
+<Grid Name="TimeSeries" GridType="Collection" CollectionType="Temporal">
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0000.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0000.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0000, time=0.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0001.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="2000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0001.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0001, time=2000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0002.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="4000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0002.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0002, time=4000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0003.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="6000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0003.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0003, time=6000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0004.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="8000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0004.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0004, time=8000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0005.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="10000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0005.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0005, time=10000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0006.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="12000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0006.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0006, time=12000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0007.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="14000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0007.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0007, time=14000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0008.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="16000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0008.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0008, time=16000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0009.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="18000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0009.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0009, time=18000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0010.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="20000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0010.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0010, time=20000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0011.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="22000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0011.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0011, time=22000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0012.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="24000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0012.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0012, time=24000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0013.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="26000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0013.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0013, time=26000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0014.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="28000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0014.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0014, time=28000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0015.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="30000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0015.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0015, time=30000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0016.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="32000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0016.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0016, time=32000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0017.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="34000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0017.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0017, time=34000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0018.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="36000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0018.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0018, time=36000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0019.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="38000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0019.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0019, time=38000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0020.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="40000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0020.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0020, time=40000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0021.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="42000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0021.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0021, time=42000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0022.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="44000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0022.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0022, time=44000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0023.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="46000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0023.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0023, time=46000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0024.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="48000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105908"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105908 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105908 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105908" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0024.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0024, time=48000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0025.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="50000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105907"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105907 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105907 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105907 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0025.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0025, time=50000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0026.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="52000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105907"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105907 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105907 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105907 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0026.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0026, time=52000.000000 -->
+
+
+<!-- XMF description for file: snapshots/cmgi_impact_n50_0027.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="54000.000000"/>
+
+<Grid Name="Gas" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="105907"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="105907 3" NumberType="Double" Precision="8" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for Gas, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105907 3" NumberType="Float" Precision="8" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="105907 3" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/Masses</DataItem>
+</Attribute>
+<Attribute Name="SmoothingLengths" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/SmoothingLengths</DataItem>
+</Attribute>
+<Attribute Name="InternalEnergies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/InternalEnergies</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Densities" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/Densities</DataItem>
+</Attribute>
+<Attribute Name="Entropies" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/Entropies</DataItem>
+</Attribute>
+<Attribute Name="MaterialIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Int" Precision="4" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/MaterialIDs</DataItem>
+</Attribute>
+<Attribute Name="Pressures" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/Pressures</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Float" Precision="4" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/Potentials</DataItem>
+</Attribute>
+<Attribute Name="ProgenitorParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/ProgenitorParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="SplitCounts" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Char" Precision="1" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/SplitCounts</DataItem>
+</Attribute>
+<Attribute Name="SplitTrees" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="105907" NumberType="Int" Precision="8" Format="HDF">cmgi_impact_n50_0027.hdf5:/PartType0/SplitTrees</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=Gas -->
+
+</Grid> <!-- End of meta-data for output=0027, time=54000.000000 -->
+
+</Grid> <!-- timeSeries -->
+</Domain>
+</Xdmf>

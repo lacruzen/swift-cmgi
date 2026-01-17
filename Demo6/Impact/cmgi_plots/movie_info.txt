@@ -1,0 +1,30 @@
+CMGI Impact Simulation Movie Information
+===========================================
+Simulation Parameters:
+- Total simulation time: 6371.00 h
+- Snapshot interval: 17.70 h
+- Total snapshots: 361
+- Particles: 100,000
+- Target rotation: 4 hours
+- Impact velocity: 2× escape velocity
+
+To create a movie using ffmpeg:
+ffmpeg -framerate 10 -i cmgi_plots/cmgi_impact_n50_%04d.png \
+       -c:v libx264 -pix_fmt yuv420p \
+       -vf "scale=1920:-2" \
+       cmgi_impact_n50.mp4
+
+Or using ImageMagick:
+convert -delay 10 -loop 0 cmgi_plots/cmgi_impact_n50_*.png \
+        cmgi_impact_n50.gif
+
+Plot information:
+- Each frame shows 6 panels:
+  1. Material distribution (core=mantle colors)
+  2. Velocity magnitude (km/s)
+  3. Density distribution
+  4. Velocity vectors
+  5. Internal energy (MJ/kg)
+  6. Simulation statistics
+
+Created: plot_snapshots.py

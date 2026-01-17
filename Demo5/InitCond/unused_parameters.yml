@@ -1,0 +1,12 @@
+---
+
+# SWIFT unused parameter file
+# code version: 2025.04
+# git revision: v2025.04-40-ge4782930
+# git branch: master
+# git date: 2025-09-24 16:13:01 +0200
+# current date: 16:49:17 2025-11-20 PST
+
+SPH:
+  delta_neighbours: 0.1
+...

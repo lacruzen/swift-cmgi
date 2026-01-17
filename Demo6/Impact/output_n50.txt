@@ -1,0 +1,57 @@
+ Welcome to the cosmological hydrodynamical code
+    ______       _________________
+   / ___/ |     / /  _/ ___/_  __/
+   \__ \| | /| / // // /_   / /   
+  ___/ /| |/ |/ // // __/  / /    
+ /____/ |__/|__/___/_/    /_/     
+ SPH With Inter-dependent Fine-grained Tasking
+
+ Version : 2025.04
+ Revision: v2025.04-40-ge4782930, Branch: master, Date: 2025-09-24 16:13:01 +0200
+ Webpage : www.swiftsim.com
+
+ Config. options: '--prefix=/home/lacruzen/swift_venv --with-hydro=planetary --with-equation-of-state=planetary'
+
+ Compiler: GCC, Version: 13.3.0
+ CFLAGS  : '-flto -O3 -fomit-frame-pointer -malign-double -fstrict-aliasing -ffast-math -funroll-loops -march=core2 -mavx2 -pthread -Wall -Wextra -Wno-unused-parameter -Wshadow -Werror -Wno-alloc-size-larger-than -Wstrict-prototypes'
+
+ HDF5 library version     : 1.10.10
+ FFTW library version     : 3.x (details not available)
+ GSL library version      : 2.7.1
+
+[00000.0] main: CPU frequency used for tick conversion: 2611143482 Hz
+[00000.0] main: Running on: lacruzen-IdeaPad-3-14IAU7
+[00000.0] main: sizeof(part)          is  128 bytes.
+[00000.0] main: sizeof(xpart)         is   96 bytes.
+[00000.0] main: sizeof(sink)          is   96 bytes.
+[00000.0] main: sizeof(spart)         is  128 bytes.
+[00000.0] main: sizeof(bpart)         is  128 bytes.
+[00000.0] main: sizeof(gpart)         is   96 bytes.
+[00000.0] main: sizeof(gpart_foreign) is   40 bytes.
+[00000.0] main: sizeof(multipole)     is  192 bytes.
+[00000.0] main: sizeof(grav_tensor)   is  144 bytes.
+[00000.0] main: sizeof(task)          is   96 bytes.
+[00000.0] main: sizeof(cell)          is 1088 bytes.
+[00000.0] main: Reading runtime parameters from file 'cmgi_impact_n50.yml'
+[00000.0] main: Internal unit system: U_M = 5.972400e+27 g.
+[00000.0] main: Internal unit system: U_L = 6.371000e+08 cm.
+[00000.0] main: Internal unit system: U_t = 6.371000e+03 s.
+[00000.0] main: Internal unit system: U_I = 1.000000e+00 A.
+[00000.0] main: Internal unit system: U_T = 1.000000e+00 K.
+[00000.0] phys_const_print:    Gravitational constant = 6.256724e+01
+[00000.0] phys_const_print:            Speed of light = 2.997925e+05
+[00000.0] phys_const_print:           Planck constant = 1.741404e-68
+[00000.0] phys_const_print:        Boltzmann constant = 2.311716e-54
+[00000.0] phys_const_print:     Thomson cross-section = 1.638955e-42
+[00000.0] phys_const_print:             Electron-Volt = 2.682635e-50
+[00000.0] phys_const_print:       Vacuum permeability = 1.340505e-30
+[00000.0] phys_const_print:               Proton mass = 2.800586e-52
+[00000.0] phys_const_print:                      Year = 4.953214e+03
+[00000.0] phys_const_print:                    Parsec = 4.843318e+09
+[00000.0] phys_const_print:         Astronomical Unit = 2.348107e+04
+[00000.0] phys_const_print:              Earth radius = 1.001114e+00
+[00000.0] phys_const_print:                Solar mass = 3.329332e+05
+[00000.0] phys_const_print:          Solar luminosity = 4.083482e-01
+[00000.0] phys_const_print:    H_0 / h = 100 km/s/Mpc = 2.064700e-14
+[00000.0] phys_const_print:                    T_CMB0 = 2.725500e+00
+[00000.0] ./src/./equation_of_state/planetary/sesame.h:load_table_SESAME():179: Failed to open the SESAME EoS file '/path/to/ANEOS_forsterite_S19.txt'
